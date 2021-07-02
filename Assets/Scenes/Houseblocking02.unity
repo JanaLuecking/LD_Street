@@ -3567,7 +3567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 93654369}
   m_Layer: 0
-  m_Name: ----- Characters -----
+  m_Name: ----- Characters --------------------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5711,7 +5711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 289022692}
   m_Layer: 0
-  m_Name: '----- Level ----- '
+  m_Name: ----- Level --------------------------------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17995,7 +17995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 751261482}
   m_Layer: 0
-  m_Name: ----- GameUtilities -----
+  m_Name: ----- GameUtilities ----------------------------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45928,7 +45928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 868664175}
   m_Layer: 16
-  m_Name: ---------Secrets------------------------
+  m_Name: ---------Secrets----------------------------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47532,7 +47532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 974797768}
   m_Layer: 0
-  m_Name: ----- UI -----
+  m_Name: ----- UI -----------------------------------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48467,7 +48467,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1016837053}
   m_Layer: 0
-  m_Name: ----- Gameplay -----
+  m_Name: ----- Gameplay ---------------------------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57460,31 +57460,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 22.840012
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.8800001
+      value: -6.9929976
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4
+      value: 62.059998
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9869713
+      value: -0.9999198
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.03552303
+      value: -0.0126674045
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.15682255
+      value: 0.0000003375975
       objectReference: {fileID: 0}
     - target: {fileID: 4405054866690174, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0056976983
+      value: -0.0000000034880006
       objectReference: {fileID: 0}
     - target: {fileID: 4864495072746176, guid: 1fac0dae54de3224181696b709bb4d66, type: 3}
       propertyPath: m_RootOrder
@@ -64941,7 +64941,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2039527906}
   m_Layer: 0
-  m_Name: ----- Lighting -----
+  m_Name: ----- Lighting ---------------------------------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
