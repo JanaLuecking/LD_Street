@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Gamekit3D.GameCommands
 {
@@ -7,6 +8,7 @@ namespace Gamekit3D.GameCommands
     {
         public int currentCount = 0;
         public int targetCount = 3;
+	public Text t1;
 
         [Space]
         [Tooltip("Send a command when increment is performed. (optional)")]
@@ -23,6 +25,7 @@ namespace Gamekit3D.GameCommands
         public override void PerformInteraction()
         {
             currentCount += 1;
+		t1.text = currentCount.ToString();
             if (currentCount >= targetCount)
             {
                 if (onTargetReachedPerformAction != null) onTargetReachedPerformAction.PerformInteraction();
