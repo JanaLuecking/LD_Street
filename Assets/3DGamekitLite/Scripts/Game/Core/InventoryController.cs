@@ -42,6 +42,7 @@ namespace Gamekit3D
 
 
         public InventoryEvent[] inventoryEvents;
+	public GameObject anzeige;
 
         HashSet<string> inventoryItems = new HashSet<string>();
 
@@ -52,6 +53,7 @@ namespace Gamekit3D
                 var ev = GetInventoryEvent(key);
                 if (ev != null) ev.OnAdd.Invoke();
                 inventoryItems.Add(key);
+		anzeige.SetActive(false);
             }
         }
 
