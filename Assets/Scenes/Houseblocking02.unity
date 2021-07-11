@@ -1407,9 +1407,8 @@ PrefabInstance:
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
         type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: "Was ist das? Ein P\xE4ckchen f\xFCr Susan? ich sammle es besser ein
-        und bringe es zum Briefkasten. Auf dem P\xE4ckchen steht: \"Sonderlieferung
-        Eins von 3\""
+      value: "Was ist das? Ein P\xE4ckchen f\xFCr Susan? Ich sammle es besser ein.
+        Wenn ich alle habe, kann ich zum Briefkasten gehen."
       objectReference: {fileID: 0}
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
         type: 3}
@@ -4107,8 +4106,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: "Hey, ein Kind hat hier seinen Ball liegen lassen.  Den sammle ich besser
-        ein und gebe ihn zur\xFCck. Auf dem Ball steht: \"Spezialedition Einer von
-        4"
+        ein und gebe ihn zur\xFCck."
       objectReference: {fileID: 0}
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
         type: 3}
@@ -6165,11 +6163,16 @@ PrefabInstance:
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
         type: 3}
       propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
         type: 3}
       propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
+        type: 3}
+      propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
@@ -6184,6 +6187,11 @@ PrefabInstance:
       objectReference: {fileID: 198299973}
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
         type: 3}
+      propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 437108344}
+    - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
+        type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1360030966}
@@ -6194,12 +6202,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
         type: 3}
+      propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
+        type: 3}
       propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DeactivateCanvasWithDelay
       objectReference: {fileID: 0}
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
         type: 3}
       propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
+        type: 3}
+      propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
@@ -6215,6 +6233,11 @@ PrefabInstance:
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
         type: 3}
       propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
+        type: 3}
+      propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
@@ -6241,6 +6264,11 @@ PrefabInstance:
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
         type: 3}
       propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
+        type: 3}
+      propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -19663,6 +19691,7 @@ MonoBehaviour:
   currentCount: 0
   targetCount: 4
   t1: {fileID: 1473709738}
+  anzeige: {fileID: 437108344}
   onIncrementSendCommand: {fileID: 0}
   onIncrementPerformAction: {fileID: 0}
   onTargetReachedSendCommand: {fileID: 509490392}
@@ -60659,7 +60688,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: "Hey, ein Kind hat hier seinen Ball liegen lassen. Den gebe ich lieber
-        mal zur\xFCck. Auf dem Ball steht: \"Spezialedition Einer von 4"
+        mal zur\xFCck. "
       objectReference: {fileID: 0}
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
         type: 3}
@@ -72270,8 +72299,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: "Ein Kind hat seinen Ball dort hochgeschossen. Den sammle ich besser
-        ein und gebe ihn zur\xFCck. Auf dem Ball steht: \"Spezialedition Einer von
-        4"
+        ein und gebe ihn zur\xFCck."
       objectReference: {fileID: 0}
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
         type: 3}
@@ -80672,8 +80700,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: "Hey, ein Kind hat hier seinen Ball hochgeschossen! Den nehm ich lieber
-        mal mit und gebe ihn dem Kind zur\xFCck. Auf dem Ball steht: \"Spezialedition
-        Einer von 4"
+        mal mit und gebe ihn dem Kind zur\xFCck."
       objectReference: {fileID: 0}
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
         type: 3}
@@ -84967,6 +84994,7 @@ MonoBehaviour:
   currentCount: 0
   targetCount: 3
   t1: {fileID: 2020717769}
+  anzeige: {fileID: 1511102738}
   onIncrementSendCommand: {fileID: 0}
   onIncrementPerformAction: {fileID: 0}
   onTargetReachedSendCommand: {fileID: 2036463402}
@@ -87478,8 +87506,8 @@ PrefabInstance:
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
         type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: "Was ist das? Ein P\xE4ckchen f\xFCr Susan? Ich bringe es besser zum
-        Briefkasten. Auf dem P\xE4ckchen steht: \"Sonderlieferung Eins von 3\""
+      value: "Was ist das? Ein P\xE4ckchen f\xFCr Susan? Ich sammle es besser ein.
+        Wenn ich alle habe, kann ich zum Briefkasten gehen."
       objectReference: {fileID: 0}
     - target: {fileID: 114878368670053622, guid: 41eaaa4dcdb4abc41b85dbf824f6d566,
         type: 3}

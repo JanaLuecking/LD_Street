@@ -9,6 +9,7 @@ namespace Gamekit3D.GameCommands
         public int currentCount = 0;
         public int targetCount = 3;
 	public Text t1;
+	public GameObject anzeige;
 
         [Space]
         [Tooltip("Send a command when increment is performed. (optional)")]
@@ -21,10 +22,14 @@ namespace Gamekit3D.GameCommands
         [Tooltip("Perform an action when target count is reacted. (optional)")]
         public GameCommandHandler onTargetReachedPerformAction;
 
+	void Start()
+   	 {anzeige.SetActive(false);}
 
         public override void PerformInteraction()
         {
             currentCount += 1;
+		if (currentCount == 1)
+{anzeige.SetActive(true);}
 		t1.text = currentCount.ToString();
             if (currentCount >= targetCount)
             {
